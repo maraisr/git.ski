@@ -1,0 +1,90 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@marais/tsconfig': 0.0.2
+  cfw: 0.3.0
+  typescript: ^4.6.0-dev.20220111
+  worktop: 0.8.0-next.10
+
+dependencies:
+  worktop: 0.8.0-next.10
+
+devDependencies:
+  '@marais/tsconfig': 0.0.2
+  cfw: 0.3.0
+  typescript: 4.6.0-dev.20220111
+
+packages:
+  
+  /@marais/tsconfig/0.0.2:
+    resolution: { integrity: sha512-xBWOcIbhm8t1ar63BluoL+DiKMHEIZ7Cc3pZ3FiKImUDmbNkqLmokQOIlAS/sB2SKc0yuAvmF5nKrkqOZsljZw== }
+    dev: true
+  
+  /cfw/0.3.0:
+    resolution: { integrity: sha512-KiN54HqdDiw2+nfCjPALoujKXn/N/e1yeCzcpctuWK4cgBbCWbxg966SITKZszXezk8K1E/8kRCfUXKyzluanQ== }
+    engines: { node: '>=12.10' }
+    hasBin: true
+    dependencies:
+      esbuild: 0.12.29
+      httpie: 1.1.2
+      kleur: 4.1.4
+      klona: 2.0.5
+      sade: 1.8.1
+    dev: true
+  
+  /esbuild/0.12.29:
+    resolution: { integrity: sha512-w/XuoBCSwepyiZtIRsKsetiLDUVGPVw1E/R3VTFSecIy8UR7Cq3SOtwKHJMFoVqqVG36aGkzh4e8BvpO1Fdc7g== }
+    hasBin: true
+    requiresBuild: true
+    dev: true
+  
+  /httpie/1.1.2:
+    resolution: { integrity: sha512-VQ82oXG95oY1fQw/XecHuvcFBA+lZQ9Vwj1RfLcO8a7HpDd4cc2ukwpJt+TUlFaLUAzZErylxWu6wclJ1rUhUQ== }
+    engines: { node: '>=8' }
+    dev: true
+  
+  /kleur/4.1.4:
+    resolution: { integrity: sha512-8QADVssbrFjivHWQU7KkMgptGTl6WAcSdlbBPY4uNF+mWr6DGcKrvY2w4FQJoXch7+fKMjj0dRrL75vk3k23OA== }
+    engines: { node: '>=6' }
+    dev: true
+  
+  /klona/2.0.5:
+    resolution: { integrity: sha512-pJiBpiXMbt7dkzXe8Ghj/u4FfXOOa98fPW+bihOJ4SjnoijweJrNThJfd3ifXpXhREjpoF2mZVH1GfS9LV3kHQ== }
+    engines: { node: '>= 8' }
+    dev: true
+  
+  /mri/1.2.0:
+    resolution: { integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA== }
+    engines: { node: '>=4' }
+    dev: true
+  
+  /mrmime/1.0.0:
+    resolution: { integrity: sha512-a70zx7zFfVO7XpnQ2IX1Myh9yY4UYvfld/dikWRnsXxbyvMcfz+u6UfgNAtH+k2QqtJuzVpv6eLTx1G2+WKZbQ== }
+    engines: { node: '>=10' }
+    dev: false
+  
+  /regexparam/2.0.0:
+    resolution: { integrity: sha512-gJKwd2MVPWHAIFLsaYDZfyKzHNS4o7E/v8YmNf44vmeV2e4YfVoDToTOKTvE7ab68cRJ++kLuEXJBaEeJVt5ow== }
+    engines: { node: '>=8' }
+    dev: false
+  
+  /sade/1.8.1:
+    resolution: { integrity: sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A== }
+    engines: { node: '>=6' }
+    dependencies:
+      mri: 1.2.0
+    dev: true
+  
+  /typescript/4.6.0-dev.20220111:
+    resolution: { integrity: sha512-Xevo7lNQivH7sLYoBmDiubjROWvTrVmcyP2h3iO/WZAmFf3vum9KSldMAphZys6Jkq3WbCwBCJvvNx2Pdix8cQ== }
+    engines: { node: '>=4.2.0' }
+    hasBin: true
+    dev: true
+  
+  /worktop/0.8.0-next.10:
+    resolution: { integrity: sha512-IUq+fTF7bO3DhwubXlkIIqWPIrXgLfHg1XHqDJVaRhVN39KcUqR3sH4PqB8Ogjb23fPEskeTeVfTtItgmJSxOA== }
+    engines: { node: '>=12' }
+    dependencies:
+      mrmime: 1.0.0
+      regexparam: 2.0.0
+    dev: false
